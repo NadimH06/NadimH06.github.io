@@ -1,1 +1,93 @@
 <h1>evil sprite</h1>
+<!DOCTYPE html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://mikehardisty.files.wordpress.com/2010/08/ghostship_blog2.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: red;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: times, serif;
+      font-style: italic;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 5px;
+      background: rgba(0,0,255,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    body {
+      color: white;
+      background-color: black;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+	  font-family: 'Nanum Brush Script', cursive;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    img {
+      width: 200;
+      border-radius: 1000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://churchofchristarticles.com/blog/wp-content/uploads/2011/08/immortal.jpg">
+    <h1>Nadim's Blog</h1>
+    <ul>
+      <li><a href="https://dash.generalassemb.ly/Nadim06/build-your-own-personal-website" target="_blank">About Me</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Ghost" target= "_blank">About Ghost</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/21_grams_experiment" tagget= "_blank">About Soul</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Mass of Human Soul</h2>
+    <p>Souls have physical weight, and attempted to measure the mass lost by a human when the soul departed the body. MacDougall attempted to measure the mass change of six patients at the moment of death. One of the six subjects lost three-fourths of an ounce (21.3 grams).
+
+MacDougall stated his experiment would have to be repeated many times before any conclusion could be obtained. The experiment is widely regarded as flawed and unscientific due to the small sample size, the methods used, as well as the fact only one of the six subjects met the hypothesis. The case has been cited as an example of selective reporting. Despite its rejection within the scientific community, MacDougall's experiment popularized the concept that the soul has weight, and specifically that it weighs 21 grams..</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Ghost</h2>
+    <p>An apparition of a dead person that is believed to appear or become manifest to the living, typically as a nebulous image.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Does the Ghost Exits</h2>
+    <p>The overwhelming consensus of science is that ghosts do not exist.[4] Their existence is impossible to falsify,[4] and ghost hunting has been classified as pseudoscience.[5][6][7] Despite centuries of investigation, there is no scientific evidence that any location is inhabited by spirits of the dead</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("1 like added!");
+    });
+  </script>
+</body>
